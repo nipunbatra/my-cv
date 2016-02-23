@@ -1,0 +1,136 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+
+
+\documentclass[11pt, a4paper]{awesome-cv}
+
+
+%\addbibresource[label=base]{xampl.bib}
+
+
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-emerald}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     3rd party packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Needed to divide into several files
+\usepackage{import}
+%\usepackage[backend=biber]{biblatex}
+%\addbibresource{resume.bib}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Essentials
+\name{Nipun}{Batra}
+\address{Mobile and Ubiquitous Computing Ph.D. Lab, Indraprastha Institue of Information Technology Delhi, New Delhi 110020}
+
+
+%\mobile{(+82) 10-9030-1843} 
+
+%%% Social
+\email{nipunb@iiitd.ac.in}
+\homepage{www.iiitd.edu.in/~nipunb/}
+%\homepage{http://nipunbatra.github.io/}
+
+\github{nipunbatra}
+%\scholar{nipun\_batra}
+\linkedin{nipunbatra0}
+\twitter{nipun\_batra}
+%%% Optionals
+\position{PhD. scholar}
+%\quote{``Make the change that you want to see in the world."}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+\makecvfooter
+  {\today}
+  {Nipun Batra~~~·~~~CV}
+  {\thepage}
+  
+\usepackage[style=numeric-comp,sorting=ydnt,defernumbers]{biblatex}
+
+\AtDataInput{%
+	\csnumgdef{entrycount:\strfield{prefixnumber}}{%
+		\csuse{entrycount:\strfield{prefixnumber}}+1}}
+
+\DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}    
+\newrobustcmd*{\mkbibdesc}[1]{%
+	\number\numexpr\csuse{entrycount:\strfield{prefixnumber}}+1-#1\relax}
+
+\addbibresource{my-publications.bib}
+
+\begin{document}
+%%% Make a header for CV with personal data
+%\makecvheader
+
+%%% Import contents
+\import{\sectiondir}{education.tex}
+\import{\sectiondir}{honors.tex}
+\import{\sectiondir}{research-experience.tex}
+\import{\sectiondir}{industrial-experience.tex}
+\import{\sectiondir}{invited-talks.tex}
+\import{\sectiondir}{committees.tex}
+
+\printbibheading
+\printbibliography[prefixnumbers={A},type=article,title={Articles},heading=subbibliography]
+\printbibliography[prefixnumbers={R},type=report,title={Reports},heading=subbibliography]
+\printbibliography[prefixnumbers={P},type=inproceedings,title={Presentations},
+heading=subbibliography]
+
+
+%\printbibliography[title=Articles, type=article]
+
+%\printbibliography[title={Conference Proceedings}, type=inproceedings]
+%\nocite{*}                   %this uses *everything* in the .bib file
+%\bibliography{resume} 
+
+
+
+\import{\sectiondir}{presentation.tex}
+\import{\sectiondir}{writing.tex}
+
+
+\end{document}
