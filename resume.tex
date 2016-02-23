@@ -22,6 +22,19 @@
 
 \documentclass[11pt, a4paper]{awesome-cv}
 
+\usepackage[style=numeric-comp,sorting=ydnt,defernumbers,maxbibnames=9,maxcitenames=5]{biblatex}
+%\usepackage[style=abbrv,sorting=ydnt,defernumbers]{biblatex}
+
+\AtDataInput{%
+	\csnumgdef{entrycount:\strfield{prefixnumber}}{%
+		\csuse{entrycount:\strfield{prefixnumber}}+1}}
+
+\DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}    
+\newrobustcmd*{\mkbibdesc}[1]{%
+	\number\numexpr\csuse{entrycount:\strfield{prefixnumber}}+1-#1\relax}
+
+\addbibresource{my-publications.bib}
+
 
 %\addbibresource[label=base]{xampl.bib}
 
@@ -102,9 +115,36 @@
   {Nipun Batra~~~·~~~CV}
   {\thepage}
   
+  \usepackage[normalem]{ulem} %for \uline
+  
+  \renewbibmacro*{name:first-last}[4]{%
+  	\usebibmacro{name:delim}{#2#3#1}%
+  	\usebibmacro{name:hook}{#2#3#1}%
+  	\ifthenelse{\equal{#1}{Batra}}% matches last name against YourLastName
+  	{
+  		\uline{% wrapped with \uline
+  			\ifblank{#2}{}{\mkbibnamefirst{#2}\isdot\bibnamedelimd}%
+  			\ifblank{#3}{}{%
+  				\mkbibnameprefix{#3}\isdot%
+  				\ifpunctmark{'}%
+  				{}%
+  				{\ifuseprefix{\bibnamedelimc}{\bibnamedelimd}}}%
+  			\mkbibnamelast{#1}\isdot%
+  			\ifblank{#4}{}{\bibnamedelimd\mkbibnameaffix{#4}\isdot}}}%
+  	{% original
+  		\ifblank{#2}{}{\mkbibnamefirst{#2}\isdot\bibnamedelimd}%
+  		\ifblank{#3}{}{%
+  			\mkbibnameprefix{#3}\isdot%
+  			\ifpunctmark{'}%
+  			{}%
+  			{\ifuseprefix{\bibnamedelimc}{\bibnamedelimd}}}%
+  		\mkbibnamelast{#1}\isdot%
+  		\ifblank{#4}{}{\bibnamedelimd\mkbibnameaffix{#4}\isdot}}}
+  
+  
   
  
-
+\renewcommand*{\bibfont}{\footnotesize}
 \begin{document}
 	
 	
@@ -127,19 +167,15 @@
 %\printbibliography[title={Conference Proceedings}, type=inproceedings]
 %\nocite{*}                   %this uses *everything* in the .bib file
 %\bibliography{resume} 
-\cvsection{Peer-reviewed conferences}
-\bibliographystyle{acm}
-\bibliography{my-publications}
+	\cvsection{Publications}
+	\nocite{*}
+	\printbibliography[prefixnumbers={C},type=inproceedings,title={Conferences},heading=subbibliography]
+	\printbibliography[prefixnumbers={W},type=workshop,title={Workshops},heading=subbibliography]
+	\printbibliography[prefixnumbers={P},type=poster,title={Posters and Demos},heading=subbibliography]
+	\printbibliography[prefixnumbers={R},type=report,title={Tech. report},heading=subbibliography]
 
-\nocite{batra2013indic}
-\cvsection{Tech. reports}
-\bibliographystyle{acm}
-\bibliography{my-publications}
-
-\nocite{*}
-
-\import{\sectiondir}{presentation.tex}
-\import{\sectiondir}{writing.tex}
+%\import{\sectiondir}{presentation.tex}
+%\import{\sectiondir}{writing.tex}
 
 
 \end{document}

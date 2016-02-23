@@ -1,5 +1,9 @@
-xelatex resume-2
-biber resume-2
-xelatex resume-2
-xelatex resume-2
-open resume-2
+rm resume.log,
+rm resume.aux
+rm resume.dvi
+rm resume.bbl
+xelatex resume
+biber resume
+xelatex resume
+xelatex resume
+open resume.pdf

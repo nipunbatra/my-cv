@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  23 FEB 2016 16:06
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  23 FEB 2016 20:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**resume-2
-(./resume-2.tex
+**resume
+(./resume.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (./awesome-cv.cls
@@ -919,38 +919,38 @@ File: english.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
 \@quotelevel=\count311
 \@quotereset=\count312
 
-(./resume-2.aux)
-\openout1 = `resume-2.aux'.
+(./resume.aux)
+\openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 130.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 130.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 148.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 148.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 130.
+LaTeX Info: Redefining \selectfont on input line 148.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -988,40 +988,40 @@ LaTeX Info: Redefining \selectfont on input line 130.
 
 \g__fontspec_family_latinmodern-math.otf_int=\count313
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 130.
+(Font)              `operators' in the math version `normal' on input line 148.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU1/latinmodern-math.otf(0)/m/n on inpu
-t line 130.
+t line 148.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 130.
+(Font)              `operators' in the math version `bold' on input line 148.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU1/latinmodern-math.otf(0)/bx/n on in
-put line 130.
+put line 148.
 LaTeX Font Info:    Encoding `OMS' has changed to `EU1' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 130.
+(Font)              `symbols' in the math version `normal' on input line 148.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/cmsy/m/n --> EU1/latinmodern-math.otf(1)/m/n on inp
-ut line 130.
+ut line 148.
 LaTeX Font Info:    Encoding `OMS' has changed to `EU1' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 130.
+(Font)              `symbols' in the math version `bold' on input line 148.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> EU1/latinmodern-math.otf(1)/bx/n on in
-put line 130.
+put line 148.
 LaTeX Font Info:    Encoding `OMX' has changed to `EU1' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 1
-30.
+48.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> EU1/latinmodern-math.otf(2)/m/n on inp
-ut line 130.
+ut line 148.
 LaTeX Font Info:    Encoding `OMX' has changed to `EU1' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 130
+(Font)              `largesymbols' in the math version `bold' on input line 148
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> EU1/latinmodern-math.otf(2)/bx/n on in
-put line 130.
+put line 148.
 \AtBeginShipoutBox=\box46
-Package hyperref Info: Link coloring OFF on input line 130.
+Package hyperref Info: Link coloring OFF on input line 148.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1030,26 +1030,77 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count314
 )
-LaTeX Info: Redefining \ref on input line 130.
-LaTeX Info: Redefining \pageref on input line 130.
-LaTeX Info: Redefining \nameref on input line 130.
+LaTeX Info: Redefining \ref on input line 148.
+LaTeX Info: Redefining \pageref on input line 148.
+LaTeX Info: Redefining \nameref on input line 148.
 
-(./resume-2.out) (./resume-2.out)
+(./resume.out) (./resume.out)
 \@outlinefile=\write5
-\openout5 = `resume-2.out'.
+\openout5 = `resume.out'.
 
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `resume-2.bcf'.
+\openout3 = `resume.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'resume-2.bbl' found.
- (./resume-2.bbl)
-Package biblatex Info: Reference section=0 on input line 130.
-Package biblatex Info: Reference segment=0 on input line 130.
- (./resume/education.tex
+Package biblatex Info: ... file 'resume.bbl' found.
+ (./resume.bbl)
+Package biblatex Info: Reference section=0 on input line 148.
+Package biblatex Info: Reference segment=0 on input line 148.
+
+
+! Package etoolbox Error: Boolean '\ifistart' undefined.
+
+See the etoolbox package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 \makecvheader
+                   
+? 
+
+! Package etoolbox Error: Boolean '\ifistart' undefined.
+
+See the etoolbox package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 \makecvheader
+                   
+? 
+
+! Package etoolbox Error: Boolean '\ifistart' undefined.
+
+See the etoolbox package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 \makecvheader
+                   
+? 
+
+! Package etoolbox Error: Boolean '\ifistart' undefined.
+
+See the etoolbox package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 \makecvheader
+                   
+? 
+
+! Package etoolbox Error: Boolean '\ifistart' undefined.
+
+See the etoolbox package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 \makecvheader
+                   
+? 
+(./resume/education.tex
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 10.95015pt on input line 7.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
@@ -1070,35 +1121,70 @@ LaTeX Font Info:    Font shape `EU1/SourceSansPro(2)/m/sl' in size <8> not avai
 lable
 (Font)              Font shape `EU1/SourceSansPro(2)/m/it' tried instead on inp
 ut line 7.
-)
-(./resume/honors.tex) (./resume/research-experience.tex)
-(./resume/industrial-experience.tex) (./resume/invited-talks.tex)
-(./resume/committees.tex) [1
+) (./resume/honors.tex)
+(./resume/research-experience.tex) (./resume/industrial-experience.tex)
+(./resume/invited-talks.tex) (./resume/committees.tex) [1
 
 ]
 
-Package biblatex Warning: Type 'report' not found on input line 144.
+Package biblatex Warning: No driver for entry type 'workshop'.
+(biblatex)                Using fallback driver on input line 173.
 
 
-LaTeX Warning: Empty bibliography on input line 144.
+Package biblatex Warning: No driver for entry type 'workshop'.
+(biblatex)                Using fallback driver on input line 173.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
+
+Package biblatex Warning: No driver for entry type 'workshop'.
+(biblatex)                Using fallback driver on input line 173.
+
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 173
+.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmtt.fd
+File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 9.00014pt on input line 173.
+LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 6.00009pt on input line 173.
+LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.00008pt on input line 173.
+LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.99986pt on input line 173.
+LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.99991pt on input line 173.
+LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 4.99992pt on input line 173.
+
+
+Package biblatex Warning: No driver for entry type 'poster'.
+(biblatex)                Using fallback driver on input line 174.
+
+
+Package biblatex Warning: No driver for entry type 'poster'.
+(biblatex)                Using fallback driver on input line 174.
+
+
+Package biblatex Warning: No driver for entry type 'poster'.
+(biblatex)                Using fallback driver on input line 174.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
- (./resume-2.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 147.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 147.
-Package logreq Info: Writing requests to 'resume-2.run.xml'.
-\openout1 = `resume-2.run.xml'.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
+ (./resume.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 181.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 181.
+Package logreq Info: Writing requests to 'resume.run.xml'.
+\openout1 = `resume.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33927 strings out of 493706
- 600493 string characters out of 6145769
- 1072912 words of memory out of 5000000
- 36929 multiletter control sequences out of 15000+600000
- 6570 words of font info for 71 fonts, out of 8000000 for 9000
+ 34037 strings out of 493706
+ 603649 string characters out of 6145769
+ 1071972 words of memory out of 5000000
+ 37010 multiletter control sequences out of 15000+600000
+ 7956 words of font info for 93 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 53i,11n,65p,10489b,1059s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,11n,65p,10391b,1365s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume-2.pdf (2 pages).
+Output written on resume.pdf (2 pages).

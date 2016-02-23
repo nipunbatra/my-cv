@@ -41,16 +41,16 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>resume.aux</file>
-      <file>resume-blx.bib</file>
+      <file>resume.bcf</file>
     </provides>
     <requires type="dynamic">
       <file>resume.bbl</file>
     </requires>
     <requires type="static">
+      <file>blx-dm.def</file>
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
       <file>numeric-comp.bbx</file>
@@ -61,15 +61,14 @@
       <file>english.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="1">
-    <generic>bibtex</generic>
+  <external package="biblatex" priority="5" active="0">
+    <generic>biber</generic>
     <cmdline>
-      <binary>bibtex</binary>
-      <option>-min-crossrefs 2</option>
+      <binary>biber</binary>
       <infile>resume</infile>
     </cmdline>
     <input>
-      <file>resume.aux</file>
+      <file>resume.bcf</file>
     </input>
     <output>
       <file>resume.bbl</file>
@@ -78,14 +77,10 @@
       <file>resume.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>resume.aux</file>
-      <file>resume-blx.bib</file>
+      <file>resume.bcf</file>
     </requires>
     <requires type="editable">
-      <file>biblatex-examples.bib</file>
-    </requires>
-    <requires type="static">
-      <file>biblatex.bst</file>
+      <file>my-publications.bib</file>
     </requires>
   </external>
 </requests>
