@@ -1,0 +1,110 @@
+\begin{thebibliography}{10}
+
+\bibitem{arjunan2012sensoract}
+{\sc Arjunan, P., Batra, N., Choi, H., Singh, A., Singh, P., and Srivastava,
+  M.~B.}
+\newblock Sensoract: a privacy and security aware federated middleware for
+  building management.
+\newblock In {\em Proceedings of the Fourth ACM Workshop on Embedded Sensing
+  Systems for Energy-Efficiency in Buildings\/} (2012), ACM, pp.~80--87.
+
+\bibitem{arjunan2013sensoract}
+{\sc Arjunan, P., Saha, M., Gulati, M., Batra, N., Singh, A., and Singh, P.}
+\newblock Sensoract: Design and implementation of fine-grained sensing and
+  control sharing in buildings.
+\newblock {\em the poster track of 10th USENIX Symposium on Networked Systems
+  Design and Implementation (NSDI’13)\/} (2013).
+
+\bibitem{batra2015non}
+{\sc Batra, N.}
+\newblock Non intrusive load monitoring: Systems, metrics and use cases.
+\newblock In {\em Proceedings of the 13th ACM Conference on Embedded Networked
+  Sensor Systems\/} (2015), ACM, pp.~501--502.
+
+\bibitem{batra2013experiences}
+{\sc Batra, N., Arjunan, P., Singh, A., and Singh, P.}
+\newblock Experiences with occupancy based building management systems.
+\newblock {\em Intelligent Sensors, Sensor Networks and Information Processing,
+  2013 IEEE Eighth International Conference on\/} (2013), 153--158.
+
+\bibitem{batra2015good}
+{\sc Batra, N., Baijal, R., Singh, A., and Whitehouse, K.}
+\newblock How good is good enough? re-evaluating the bar for energy
+  disaggregation.
+\newblock {\em arXiv preprint arXiv:1510.08713\/} (2015).
+
+\bibitem{batra2013indic}
+{\sc Batra, N., Dutta, H., and Singh, A.}
+\newblock Indic: Improved non-intrusive load monitoring using load division and
+  calibration.
+\newblock {\em 12th International Conference on Machine Learning and
+  Applications (ICMLA’13)\/} (2013).
+
+\bibitem{batra2014bits}
+{\sc Batra, N., Gulati, M., Jain, P., Whitehouse, K., and Singh, A.}
+\newblock Bits and watts: improving energy disaggregation performance using
+  power line communication modems: poster abstract.
+\newblock In {\em Proceedings of the 1st ACM Conference on Embedded Systems for
+  Energy-Efficient Buildings\/} (2014), ACM, pp.~210--211.
+
+\bibitem{batra2013s}
+{\sc Batra, N., Gulati, M., Singh, A., and Srivastava, M.~B.}
+\newblock It's different: Insights into home energy consumption in india.
+\newblock In {\em Proceedings of the 5th ACM Workshop on Embedded Systems For
+  Energy-Efficient Buildings\/} (2013), ACM, pp.~1--8.
+
+\bibitem{batra2014nilmtk}
+{\sc Batra, N., Kelly, J., Parson, O., Dutta, H., Knottenbelt, W., Rogers, A.,
+  Singh, A., and Srivastava, M.}
+\newblock Nilmtk: an open source toolkit for non-intrusive load monitoring.
+\newblock In {\em Proceedings of the 5th international conference on Future
+  energy systems\/} (2014), ACM, pp.~265--276.
+
+\bibitem{batra2014comparison}
+{\sc Batra, N., Parson, O., Berges, M., Singh, A., and Rogers, A.}
+\newblock A comparison of non-intrusive load monitoring methods for commercial
+  and residential buildings.
+\newblock {\em arXiv preprint arXiv:1408.6595\/} (2014).
+
+\bibitem{batra2014data}
+{\sc Batra, N., Singh, A., Singh, P., Dutta, H., Sarangan, V., and Srivastava,
+  M.}
+\newblock Data driven energy efficiency in buildings.
+\newblock {\em arXiv preprint arXiv:1404.7227\/} (2014).
+
+\bibitem{batra2015if}
+{\sc Batra, N., Singh, A., and Whitehouse, K.}
+\newblock If you measure it, can you improve it?: Exploring the value of energy
+  disaggregation.
+\newblock In {\em Proceedings of the 2nd ACM International Conference on
+  Embedded Systems for Energy-Efficient Built Environments\/} (2015), ACM,
+  pp.~191--200.
+
+\bibitem{batra2015neighbourhood}
+{\sc Batra, N., Singh, A., and Whitehouse, K.}
+\newblock Neighbourhood nilm: A big-data approach to household energy
+  disaggregation.
+\newblock {\em arXiv preprint arXiv:1511.02900\/} (2015).
+
+\bibitem{kelly2014demo}
+{\sc Kelly, J., Batra, N., Parson, O., Dutta, H., Knottenbelt, W., Rogers, A.,
+  Singh, A., and Srivastava, M.}
+\newblock Demo abstract: Nilmtk v0. 2: A non-intrusive load monitoring toolkit
+  for large scale data sets.
+\newblock {\em arXiv preprint arXiv:1409.5908\/} (2014).
+
+\bibitem{kelly2014nilmtk}
+{\sc Kelly, J., Batra, N., Parson, O., Dutta, H., Knottenbelt, W., Rogers, A.,
+  Singh, A., and Srivastava, M.}
+\newblock Nilmtk v0. 2: a non-intrusive load monitoring toolkit for large scale
+  data sets: demo abstract.
+\newblock In {\em Proceedings of the 1st ACM Conference on Embedded Systems for
+  Energy-Efficient Buildings\/} (2014), ACM, pp.~182--183.
+
+\bibitem{parson2015dataport}
+{\sc Parson, O., Fisher, G., Hersey, A., Batra, N., Kelly, J., Singh, A.,
+  Knottenbelt, W., and Rogers, A.}
+\newblock Dataport and nilmtk: A building data set designed for non-intrusive
+  load monitoring.
+
+\end{thebibliography}

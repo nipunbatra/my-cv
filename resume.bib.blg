@@ -1,0 +1,5 @@
+[0] Config.pm:324> INFO - This is Biber 2.1
+[0] Config.pm:327> INFO - Logfile is 'resume.bib.blg'
+[52] biber-darwin:276> INFO - === Tue Feb 23, 2016, 12:10:25
+[162] Utils.pm:162> ERROR - Cannot find control file 'resume.bib.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
+[162] Biber.pm:110> INFO - ERRORS: 1

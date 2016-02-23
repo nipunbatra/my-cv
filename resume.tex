@@ -18,7 +18,13 @@
 %     Configuration
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Themes: Awesome-CV
+
+
 \documentclass[11pt, a4paper]{awesome-cv}
+
+
+%\addbibresource[label=base]{xampl.bib}
+
 
 %%% Override a directory location for fonts(default: 'fonts/')
 \fontdir[fonts/]
@@ -48,7 +54,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Needed to divide into several files
 \usepackage{import}
-
+%\usepackage[backend=biber]{biblatex}
+%\addbibresource{resume.bib}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Personal Data
@@ -85,16 +92,30 @@
 
 \begin{document}
 %%% Make a header for CV with personal data
-\makecvheader
+%\makecvheader
 
 %%% Import contents
 \import{\sectiondir}{education.tex}
 \import{\sectiondir}{honors.tex}
-\import{\sectiondir}{experience.tex}
-\import{\sectiondir}{extracurricular.tex}
+\import{\sectiondir}{research-experience.tex}
+\import{\sectiondir}{industrial-experience.tex}
+\import{\sectiondir}{invited-talks.tex}
+\import{\sectiondir}{committees.tex}
+\nocite{*}
+
+%\printbibliography[title=Articles, type=article]
+
+%\printbibliography[title={Conference Proceedings}, type=inproceedings]
+%\nocite{*}                   %this uses *everything* in the .bib file
+%\bibliography{resume} 
+
+\bibliographystyle{acm}
+\bibliography{my-publications}
+
+\nocite{*}
 
 \import{\sectiondir}{presentation.tex}
 \import{\sectiondir}{writing.tex}
-\import{\sectiondir}{committees.tex}
+
 
 \end{document}
