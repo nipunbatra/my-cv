@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  23 FEB 2016 14:28
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  23 FEB 2016 14:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -680,11 +680,6 @@ Package: import 2009/03/23  v 5.1
 (/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2015/04/19 v3.0 programmable bibliographies (PK/JW/AB)
 
-
-Package biblatex Warning: No "backend" specified, using Biber backend.
-(biblatex)                To use BibTeX, load biblatex with 
-(biblatex)                the "backend=bibtex" option.
-
 (/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex2.sty
 Package: biblatex2 2015/04/19 v3.0 programmable bibliographies (biber) (PK/JW/A
 B)
@@ -1025,12 +1020,11 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `resume-2.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'resume-2.bbl' not found.
-
-No file resume-2.bbl.
+Package biblatex Info: ... file 'resume-2.bbl' found.
+ (./resume-2.bbl)
 Package biblatex Info: Reference section=0 on input line 105.
 Package biblatex Info: Reference segment=0 on input line 105.
-(./resume/education.tex
+ (./resume/education.tex
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 10.95015pt on input line 7.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
@@ -1051,9 +1045,10 @@ LaTeX Font Info:    Font shape `EU1/SourceSansPro(2)/m/sl' in size <8> not avai
 lable
 (Font)              Font shape `EU1/SourceSansPro(2)/m/it' tried instead on inp
 ut line 7.
-) (./resume/honors.tex)
-(./resume/research-experience.tex) (./resume/industrial-experience.tex)
-(./resume/invited-talks.tex) (./resume/committees.tex)
+)
+(./resume/honors.tex) (./resume/research-experience.tex)
+(./resume/industrial-experience.tex) (./resume/invited-talks.tex)
+(./resume/committees.tex)
 
 Package biblatex Warning: Type 'article' not found on input line 118.
 
@@ -1086,9 +1081,9 @@ Package logreq Info: Writing requests to 'resume-2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33449 strings out of 493706
- 593050 string characters out of 6145769
- 1063068 words of memory out of 5000000
+ 33451 strings out of 493706
+ 593076 string characters out of 6145769
+ 1063082 words of memory out of 5000000
  36461 multiletter control sequences out of 15000+600000
  6448 words of font info for 68 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
