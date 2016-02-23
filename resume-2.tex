@@ -1,26 +1,19 @@
-%!TEX TS-program = xelatex
-%!TEX encoding = UTF-8 Unicode
-% Awesome CV LaTeX Template
-%
-% This template has been downloaded from:
-% https://github.com/posquit0/Awesome-CV
-%
-% Author:
-% Claud D. Park <posquit0.bj@gmail.com>
-% http://www.posquit0.com
-%
-% Template license:
-% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
-%
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Configuration
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Themes: Awesome-CV
-
-
 \documentclass[11pt, a4paper]{awesome-cv}
+%\usepackage[style=numeric-comp,sorting=ydnt,defernumbers,maxbibnames=9,maxcitenames=5]{biblatex}
+\usepackage[style=numeric-comp,sorting=ydnt,defernumbers,maxbibnames=9,maxcitenames=5]{biblatex}
+%\usepackage[style=abbrv,sorting=ydnt,defernumbers]{biblatex}
+
+\AtDataInput{%
+	\csnumgdef{entrycount:\strfield{prefixnumber}}{%
+		\csuse{entrycount:\strfield{prefixnumber}}+1}}
+
+\DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}    
+\newrobustcmd*{\mkbibdesc}[1]{%
+	\number\numexpr\csuse{entrycount:\strfield{prefixnumber}}+1-#1\relax}
+
+\addbibresource{my-publications.bib}
+
+
 
 
 %\addbibresource[label=base]{xampl.bib}
@@ -47,6 +40,18 @@
 
 %%% Override a separator for social informations in header(default: ' | ')
 %\headersocialsep[\quad\textbar\quad]
+
+
+\usepackage{xstring}
+\usepackage{etoolbox}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
+
+\let\originalbibitem\bibitem
+\def\bibitem#1#2\par{%
+	\noexpandarg
+	\originalbibitem{#1}
+	\StrSubstitute{#2}{Batra}{\textit{Batra}\par}}
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -86,51 +91,57 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Make a footer for CV with three arguments(<left>, <center>, <right>)
 \makecvfooter
-  {\today}
-  {Nipun Batra~~~·~~~CV}
-  {\thepage}
-  
-\usepackage[style=numeric-comp,sorting=ydnt,defernumbers,backend=biber]{biblatex}
+{\today}
+{Nipun Batra~~~·~~~CV}
+{\thepage}
 
-\AtDataInput{%
-	\csnumgdef{entrycount:\strfield{prefixnumber}}{%
-		\csuse{entrycount:\strfield{prefixnumber}}+1}}
 
-\DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}    
-\newrobustcmd*{\mkbibdesc}[1]{%
-	\number\numexpr\csuse{entrycount:\strfield{prefixnumber}}+1-#1\relax}
+\usepackage[normalem]{ulem} %for \uline
 
-\addbibresource{my-publications.bib}
+\renewbibmacro*{name:first-last}[4]{%
+	\usebibmacro{name:delim}{#2#3#1}%
+	\usebibmacro{name:hook}{#2#3#1}%
+	\ifthenelse{\equal{#1}{Batra}}% matches last name against YourLastName
+	{
+		\uline{% wrapped with \uline
+			\ifblank{#2}{}{\mkbibnamefirst{#2}\isdot\bibnamedelimd}%
+			\ifblank{#3}{}{%
+				\mkbibnameprefix{#3}\isdot%
+				\ifpunctmark{'}%
+				{}%
+				{\ifuseprefix{\bibnamedelimc}{\bibnamedelimd}}}%
+			\mkbibnamelast{#1}\isdot%
+			\ifblank{#4}{}{\bibnamedelimd\mkbibnameaffix{#4}\isdot}}}%
+	{% original
+		\ifblank{#2}{}{\mkbibnamefirst{#2}\isdot\bibnamedelimd}%
+		\ifblank{#3}{}{%
+			\mkbibnameprefix{#3}\isdot%
+			\ifpunctmark{'}%
+			{}%
+			{\ifuseprefix{\bibnamedelimc}{\bibnamedelimd}}}%
+		\mkbibnamelast{#1}\isdot%
+		\ifblank{#4}{}{\bibnamedelimd\mkbibnameaffix{#4}\isdot}}}
+
+
+
+\renewcommand*{\bibfont}{\footnotesize}
+
 
 \begin{document}
-%%% Make a header for CV with personal data
-%\makecvheader
-
-%%% Import contents
-\import{\sectiondir}{education.tex}
-\import{\sectiondir}{honors.tex}
-\import{\sectiondir}{research-experience.tex}
-\import{\sectiondir}{industrial-experience.tex}
-\import{\sectiondir}{invited-talks.tex}
-\import{\sectiondir}{committees.tex}
-
-\printbibheading
-\printbibliography[prefixnumbers={A},type=article,title={Articles},heading=subbibliography]
-\printbibliography[prefixnumbers={R},type=report,title={Reports},heading=subbibliography]
-\printbibliography[prefixnumbers={P},type=inproceedings,title={Presentations},
-heading=subbibliography]
-
-
-%\printbibliography[title=Articles, type=article]
-
-%\printbibliography[title={Conference Proceedings}, type=inproceedings]
-%\nocite{*}                   %this uses *everything* in the .bib file
-%\bibliography{resume} 
-
-
-
-\import{\sectiondir}{presentation.tex}
-\import{\sectiondir}{writing.tex}
-
-
+	
+	\import{\sectiondir}{education.tex}
+	\import{\sectiondir}{honors.tex}
+	\import{\sectiondir}{research-experience.tex}
+	\import{\sectiondir}{industrial-experience.tex}
+	\import{\sectiondir}{invited-talks.tex}
+	\import{\sectiondir}{committees.tex}
+	%Filler text \cite{batra2014nilmtk, batra2013experiences, kelly2014demo}.
+	%Filler text \cite{chiu,padhye,moraux}.
+	
+	\cvsection{Publications}
+	\nocite{*}
+	\printbibliography[prefixnumbers={A},type=article,title={Articles},heading=subbibliography]
+	\printbibliography[prefixnumbers={R},type=report,title={Reports},heading=subbibliography]
+	\printbibliography[prefixnumbers={P},type=inproceedings,title={Presentations},
+	heading=subbibliography]
 \end{document}

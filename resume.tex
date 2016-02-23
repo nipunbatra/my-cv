@@ -49,6 +49,18 @@
 %\headersocialsep[\quad\textbar\quad]
 
 
+\usepackage{xstring}
+\usepackage{etoolbox}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
+
+\let\originalbibitem\bibitem
+\def\bibitem#1#2\par{%
+	\noexpandarg
+	\originalbibitem{#1}
+	\StrSubstitute{#2}{Batra}{\textit{Batra}\par}}
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     3rd party packages
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -89,8 +101,15 @@
   {\today}
   {Nipun Batra~~~·~~~CV}
   {\thepage}
+  
+  
+ 
 
 \begin{document}
+	
+	
+	
+	
 %%% Make a header for CV with personal data
 %\makecvheader
 
@@ -101,14 +120,19 @@
 \import{\sectiondir}{industrial-experience.tex}
 \import{\sectiondir}{invited-talks.tex}
 \import{\sectiondir}{committees.tex}
-\nocite{*}
+
 
 %\printbibliography[title=Articles, type=article]
 
 %\printbibliography[title={Conference Proceedings}, type=inproceedings]
 %\nocite{*}                   %this uses *everything* in the .bib file
 %\bibliography{resume} 
+\cvsection{Peer-reviewed conferences}
+\bibliographystyle{acm}
+\bibliography{my-publications}
 
+\nocite{batra2013indic}
+\cvsection{Tech. reports}
 \bibliographystyle{acm}
 \bibliography{my-publications}
 
