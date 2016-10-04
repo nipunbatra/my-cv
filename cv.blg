@@ -1,0 +1,15 @@
+[0] Config.pm:324> INFO - This is Biber 2.1
+[0] Config.pm:327> INFO - Logfile is 'cv.blg'
+[55] biber-darwin:276> INFO - === Wed Feb 24, 2016, 08:13:19
+[55] Biber.pm:333> INFO - Reading 'cv.bcf'
+[148] Biber.pm:642> INFO - Using all citekeys in bib section 0
+[172] Biber.pm:2977> INFO - Processing section 0
+[193] Biber.pm:3115> INFO - Looking for bibtex format file 'my-publications.bib' for section 0
+[195] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
+[196] bibtex.pm:895> INFO - Found BibTeX data source 'my-publications.bib'
+[369] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[369] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[369] Biber.pm:2854> INFO - Sorting list 'ydnt' of type 'entry' with scheme 'ydnt' and locale 'en-US'
+[370] Biber.pm:2858> INFO - No sort tailoring available for locale 'en-US'
+[400] bbl.pm:505> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
+[402] bbl.pm:596> INFO - Output to cv.bbl

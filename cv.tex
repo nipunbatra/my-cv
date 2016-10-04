@@ -1,0 +1,168 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+
+
+\documentclass[11pt, a4paper]{awesome-cv}
+
+\usepackage[style=numeric-comp,sorting=ydnt,defernumbers,maxbibnames=9,maxcitenames=5]{biblatex}
+%\usepackage[style=abbrv,sorting=ydnt,defernumbers]{biblatex}
+
+\AtDataInput{%
+	\csnumgdef{entrycount:\strfield{prefixnumber}}{%
+		\csuse{entrycount:\strfield{prefixnumber}}+1}}
+
+\DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}    
+\newrobustcmd*{\mkbibdesc}[1]{%
+	\number\numexpr\csuse{entrycount:\strfield{prefixnumber}}+1-#1\relax}
+
+\addbibresource{my-publications.bib}
+
+
+%\addbibresource[label=base]{xampl.bib}
+
+
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-skyblue}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+
+
+\usepackage{xstring}
+\usepackage{etoolbox}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
+
+\let\originalbibitem\bibitem
+\def\bibitem#1#2\par{%
+	\noexpandarg
+	\originalbibitem{#1}
+	\StrSubstitute{#2}{Batra}{\textit{Batra}\par}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     3rd party packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Needed to divide into several files
+\usepackage{import}
+%\usepackage[backend=biber]{biblatex}
+%\addbibresource{resume.bib}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Essentials
+\name{Nipun}{Batra}
+\address{Mobile and Ubiquitous Computing Ph.D. Lab, Indraprastha Institue of Information Technology Delhi, New Delhi 110020}
+
+
+%\mobile{(+82) 10-9030-1843} 
+
+%%% Social
+\email{nipunb@iiitd.ac.in}
+\homepage{www.iiitd.edu.in/~nipunb/}
+%\homepage{http://nipunbatra.github.io/}
+
+\github{nipunbatra}
+%\scholar{nipun\_batra}
+\linkedin{nipunbatra0}
+\twitter{nipun\_batra}
+%%% Optionals
+\position{PhD. Candidate}
+%\quote{``Make the change that you want to see in the world."}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+\makecvfooter
+  {\today}
+  {Nipun Batra~~~·~~~CV}
+  {\thepage}
+  
+  \usepackage[normalem]{ulem} %for \uline
+  
+  \renewbibmacro*{name:first-last}[4]{%
+  	\usebibmacro{name:delim}{#2#3#1}%
+  	\usebibmacro{name:hook}{#2#3#1}%
+  	\ifthenelse{\equal{#1}{Batra}}% matches last name against YourLastName
+  	{
+  		\uline{% wrapped with \uline
+  			\ifblank{#2}{}{\mkbibnamefirst{#2}\isdot\bibnamedelimd}%
+  			\ifblank{#3}{}{%
+  				\mkbibnameprefix{#3}\isdot%
+  				\ifpunctmark{'}%
+  				{}%
+  				{\ifuseprefix{\bibnamedelimc}{\bibnamedelimd}}}%
+  			\mkbibnamelast{#1}\isdot%
+  			\ifblank{#4}{}{\bibnamedelimd\mkbibnameaffix{#4}\isdot}}}%
+  	{% original
+  		\ifblank{#2}{}{\mkbibnamefirst{#2}\isdot\bibnamedelimd}%
+  		\ifblank{#3}{}{%
+  			\mkbibnameprefix{#3}\isdot%
+  			\ifpunctmark{'}%
+  			{}%
+  			{\ifuseprefix{\bibnamedelimc}{\bibnamedelimd}}}%
+  		\mkbibnamelast{#1}\isdot%
+  		\ifblank{#4}{}{\bibnamedelimd\mkbibnameaffix{#4}\isdot}}}
+  
+  
+  
+ 
+\renewcommand*{\bibfont}{\footnotesize}
+\begin{document}
+	
+	
+	
+	
+%%% Make a header for CV with personal data
+\makecvheader
+
+%%% Import contents
+\import{\sectiondir}{education.tex}
+\import{\sectiondir}{honors.tex}
+\import{\sectiondir}{research-experience.tex}
+\import{\sectiondir}{teaching-experience.tex}
+\import{\sectiondir}{industrial-experience.tex}
+\import{\sectiondir}{invited-talks.tex}
+\import{\sectiondir}{committees.tex}
+\import{\sectiondir}{publications.tex}
+\import{\sectiondir}{mentoring.tex}
+
+
+\end{document}

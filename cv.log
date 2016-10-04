@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  16 AUG 2016 17:20
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  16 AUG 2016 17:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**resume
-(./resume.tex
+**cv.tex
+(./cv.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (./awesome-cv.cls
@@ -919,8 +919,8 @@ File: english.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
 \@quotelevel=\count311
 \@quotereset=\count312
 
-(./resume.aux)
-\openout1 = `resume.aux'.
+(./cv.aux)
+\openout1 = `cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 148.
 LaTeX Font Info:    ... okay on input line 148.
@@ -1034,22 +1034,88 @@ LaTeX Info: Redefining \ref on input line 148.
 LaTeX Info: Redefining \pageref on input line 148.
 LaTeX Info: Redefining \nameref on input line 148.
 
-(./resume.out) (./resume.out)
+(./cv.out) (./cv.out)
 \@outlinefile=\write5
-\openout5 = `resume.out'.
+\openout5 = `cv.out'.
 
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `resume.bcf'.
+\openout3 = `cv.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'resume.bbl' found.
- (./resume.bbl)
+Package biblatex Info: ... file 'cv.bbl' found.
+ (./cv.bbl)
 Package biblatex Info: Reference section=0 on input line 148.
 Package biblatex Info: Reference segment=0 on input line 148.
- (./resume/education.tex
+
+
+! Package etoolbox Error: Boolean '\ifistart' undefined.
+
+See the etoolbox package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 \makecvheader
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package etoolbox Error: Boolean '\ifistart' undefined.
+
+See the etoolbox package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 \makecvheader
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package etoolbox Error: Boolean '\ifistart' undefined.
+
+See the etoolbox package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 \makecvheader
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package etoolbox Error: Boolean '\ifistart' undefined.
+
+See the etoolbox package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 \makecvheader
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package etoolbox Error: Boolean '\ifistart' undefined.
+
+See the etoolbox package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 \makecvheader
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+(./resume/education.tex
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 10.95015pt on input line 7.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
@@ -1070,71 +1136,63 @@ LaTeX Font Info:    Font shape `EU1/SourceSansPro(2)/m/sl' in size <8> not avai
 lable
 (Font)              Font shape `EU1/SourceSansPro(2)/m/it' tried instead on inp
 ut line 7.
-)
-(./resume/honors.tex) (./resume/research-experience.tex)
-(./resume/industrial-experience.tex) (./resume/invited-talks.tex)
-(./resume/committees.tex) [1
+) (./resume/honors.tex)
+(./resume/research-experience.tex) (./resume/teaching-experience.tex)
+(./resume/industrial-experience.tex [1
 
-]
-
-Package biblatex Warning: No driver for entry type 'workshop'.
-(biblatex)                Using fallback driver on input line 173.
-
-
-Package biblatex Warning: No driver for entry type 'workshop'.
-(biblatex)                Using fallback driver on input line 173.
-
-
-Package biblatex Warning: No driver for entry type 'workshop'.
-(biblatex)                Using fallback driver on input line 173.
-
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 173
-.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmtt.fd
-File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
+]) (./resume/invited-talks.tex)
+(./resume/committees.tex) (./resume/publications.tex
+LaTeX Font Info:    Calculating math sizes for size <16> on input line 1.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 9.00014pt on input line 173.
+(Font)              scaled to size 16.00024pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.00009pt on input line 173.
+(Font)              scaled to size 11.20012pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.00008pt on input line 173.
+(Font)              scaled to size 8.00012pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.99986pt on input line 173.
+(Font)              scaled to size 15.99976pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.99991pt on input line 173.
+(Font)              scaled to size 11.19977pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 4.99992pt on input line 173.
+(Font)              scaled to size 7.99988pt on input line 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
 
 
-Package biblatex Warning: No driver for entry type 'poster'.
-(biblatex)                Using fallback driver on input line 174.
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
+ []
 
-Package biblatex Warning: No driver for entry type 'poster'.
-(biblatex)                Using fallback driver on input line 174.
-
-
-Package biblatex Warning: No driver for entry type 'poster'.
-(biblatex)                Using fallback driver on input line 174.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
- (./resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 181.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 181.
-Package logreq Info: Writing requests to 'resume.run.xml'.
-\openout1 = `resume.run.xml'.
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--132
+
+ []
+
+) (./resume/mentoring.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
+ [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
+ (./cv.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 168.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 168.
+Package logreq Info: Writing requests to 'cv.run.xml'.
+\openout1 = `cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34023 strings out of 493706
- 603042 string characters out of 6145769
- 1074280 words of memory out of 5000000
- 37006 multiletter control sequences out of 15000+600000
- 7884 words of font info for 84 fonts, out of 8000000 for 9000
+ 33882 strings out of 493706
+ 600523 string characters out of 6145769
+ 1076025 words of memory out of 5000000
+ 36856 multiletter control sequences out of 15000+600000
+ 8301 words of font info for 92 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 53i,11n,65p,10389b,1365s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,11n,65p,10389b,664s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume.pdf (2 pages).
+Output written on cv.pdf (3 pages).

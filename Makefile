@@ -1,4 +1,4 @@
-rm resume.log,
+rm resume.log
 rm resume.aux
 rm resume.dvi
 rm resume.bbl

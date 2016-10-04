@@ -1,15 +1,15 @@
 [0] Config.pm:324> INFO - This is Biber 2.1
 [0] Config.pm:327> INFO - Logfile is 'resume.blg'
-[56] biber-darwin:276> INFO - === Tue Feb 23, 2016, 20:20:24
-[56] Biber.pm:333> INFO - Reading 'resume.bcf'
-[196] Biber.pm:642> INFO - Using all citekeys in bib section 0
-[215] Biber.pm:2977> INFO - Processing section 0
-[237] Biber.pm:3115> INFO - Looking for bibtex format file 'my-publications.bib' for section 0
-[242] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
-[243] bibtex.pm:895> INFO - Found BibTeX data source 'my-publications.bib'
-[483] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[483] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[483] Biber.pm:2854> INFO - Sorting list 'ydnt' of type 'entry' with scheme 'ydnt' and locale 'en-US'
-[483] Biber.pm:2858> INFO - No sort tailoring available for locale 'en-US'
-[513] bbl.pm:505> INFO - Writing 'resume.bbl' with encoding 'UTF-8'
-[515] bbl.pm:596> INFO - Output to resume.bbl
+[54] biber-darwin:276> INFO - === Tue Aug 16, 2016, 17:20:35
+[54] Biber.pm:333> INFO - Reading 'resume.bcf'
+[201] Biber.pm:642> INFO - Using all citekeys in bib section 0
+[220] Biber.pm:2977> INFO - Processing section 0
+[235] Biber.pm:3115> INFO - Looking for bibtex format file 'my-publications.bib' for section 0
+[244] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
+[245] bibtex.pm:895> INFO - Found BibTeX data source 'my-publications.bib'
+[470] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[470] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[470] Biber.pm:2854> INFO - Sorting list 'ydnt' of type 'entry' with scheme 'ydnt' and locale 'en-US'
+[470] Biber.pm:2858> INFO - No sort tailoring available for locale 'en-US'
+[498] bbl.pm:505> INFO - Writing 'resume.bbl' with encoding 'UTF-8'
+[500] bbl.pm:596> INFO - Output to resume.bbl

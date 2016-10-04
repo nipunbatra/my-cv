@@ -1,0 +1,317 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{ydnt}{ydnt}
+    \entry{batra2015non}{report}{}
+      \name{author}{1}{}{%
+        {{hash=6e0ed92e4f89cb3723b371ca56db6fde}{Batra}{B\bibinitperiod}{Nipun}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{6e0ed92e4f89cb3723b371ca56db6fde}
+      \strng{fullhash}{6e0ed92e4f89cb3723b371ca56db6fde}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 13th ACM Conference on Embedded Networked Sensor Systems}
+      \field{title}{Non Intrusive Load Monitoring: Systems, Metrics and Use Cases}
+      \field{year}{2015}
+      \field{pages}{501\bibrangedash 502}
+      \range{pages}{2}
+    \endentry
+    \entry{batra2015good}{report}{}
+      \name{author}{4}{}{%
+        {{hash=6e0ed92e4f89cb3723b371ca56db6fde}{Batra}{B\bibinitperiod}{Nipun}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=271443b53fab5bbfc440b9802ca72eff}{Baijal}{B\bibinitperiod}{Rishi}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=cbd595bd44fd40ae4081f8f159e266b5}{Singh}{S\bibinitperiod}{Amarjeet}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=85629b4550fa61b9686d2403c0b03a6a}{Whitehouse}{W\bibinitperiod}{Kamin}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{00e227e97eb83a2b324cfe33d2ed4d7a}
+      \strng{fullhash}{00e227e97eb83a2b324cfe33d2ed4d7a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1510.08713}
+      \field{title}{How good is good enough? Re-evaluating the bar for energy disaggregation}
+      \field{year}{2015}
+    \endentry
+    \entry{batra_buildsys_2015}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=6e0ed92e4f89cb3723b371ca56db6fde}{Batra}{B\bibinitperiod}{Nipun}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=cbd595bd44fd40ae4081f8f159e266b5}{Singh}{S\bibinitperiod}{Amarjeet}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=85629b4550fa61b9686d2403c0b03a6a}{Whitehouse}{W\bibinitperiod}{Kamin}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{e035b78ac04b19b47b186f4ec668f081}
+      \strng{fullhash}{e035b78ac04b19b47b186f4ec668f081}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the second ACM International Conference on Embedded Systems For Energy-Efficient Built Environments}
+      \field{title}{If You Measure It, Can You Improve It? Exploring The Value of Energy Disaggregation}
+      \field{year}{2015}
+    \endentry
+    \entry{batra2015neighbourhood}{report}{}
+      \name{author}{3}{}{%
+        {{hash=6e0ed92e4f89cb3723b371ca56db6fde}{Batra}{B\bibinitperiod}{Nipun}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=cbd595bd44fd40ae4081f8f159e266b5}{Singh}{S\bibinitperiod}{Amarjeet}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=85629b4550fa61b9686d2403c0b03a6a}{Whitehouse}{W\bibinitperiod}{Kamin}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e035b78ac04b19b47b186f4ec668f081}
+      \strng{fullhash}{e035b78ac04b19b47b186f4ec668f081}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1511.02900}
+      \field{title}{Neighbourhood NILM: A Big-data Approach to Household Energy Disaggregation}
+      \field{year}{2015}
+    \endentry
+    \entry{parson2015dataport}{workshop}{}
+      \name{author}{8}{}{%
+        {{hash=f6ff21898563a850b78a4d08292688a2}{Parson}{P\bibinitperiod}{Oliver}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=c63318812eb074401f9a56418cc93e44}{Fisher}{F\bibinitperiod}{Grant}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=91c04e5f2e06846262a83e6e772e89b0}{Hersey}{H\bibinitperiod}{April}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=6e0ed92e4f89cb3723b371ca56db6fde}{Batra}{B\bibinitperiod}{Nipun}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=905fa4c85d3960c6f396ce73622174c4}{Kelly}{K\bibinitperiod}{Jack}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=cbd595bd44fd40ae4081f8f159e266b5}{Singh}{S\bibinitperiod}{Amarjeet}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=135098a77e5408e14725d53603819c56}{Knottenbelt}{K\bibinitperiod}{William}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=5649105233cb0014f375d744a63b480b}{Rogers}{R\bibinitperiod}{Alex}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5a8ad31f4678ea3c3a334e4f17ff03d3}
+      \strng{fullhash}{aee0059c28e35f58b206cde810864ba1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dataport and NILMTK: a building data set designed for non-intrusive load monitoring}
+      \field{year}{2015}
+    \endentry
+    \entry{batra2014bits}{poster}{}
+      \name{author}{5}{}{%
+        {{hash=6e0ed92e4f89cb3723b371ca56db6fde}{Batra}{B\bibinitperiod}{Nipun}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=db1b18815783604bce5d4d56cf9e1ef3}{Gulati}{G\bibinitperiod}{Manoj}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=31b149b780a66be6bba4e33bbdde613a}{Jain}{J\bibinitperiod}{Puneet}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=85629b4550fa61b9686d2403c0b03a6a}{Whitehouse}{W\bibinitperiod}{Kamin}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=cbd595bd44fd40ae4081f8f159e266b5}{Singh}{S\bibinitperiod}{Amarjeet}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{995c4949c019fd2c17c8859eff8458e8}
+      \strng{fullhash}{995c4949c019fd2c17c8859eff8458e8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 1st ACM Conference on Embedded Systems for Energy-Efficient Buildings}
+      \field{title}{Bits and watts: improving energy disaggregation performance using power line communication modems: poster abstract}
+      \field{year}{2014}
+      \field{pages}{210\bibrangedash 211}
+      \range{pages}{2}
+    \endentry
+    \entry{batra2014nilmtk}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=6e0ed92e4f89cb3723b371ca56db6fde}{Batra}{B\bibinitperiod}{Nipun}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=905fa4c85d3960c6f396ce73622174c4}{Kelly}{K\bibinitperiod}{Jack}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=f6ff21898563a850b78a4d08292688a2}{Parson}{P\bibinitperiod}{Oliver}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=c2d7553e4bfb46f3daf5433831cb123d}{Dutta}{D\bibinitperiod}{Haimonti}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=135098a77e5408e14725d53603819c56}{Knottenbelt}{K\bibinitperiod}{William}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=5649105233cb0014f375d744a63b480b}{Rogers}{R\bibinitperiod}{Alex}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=cbd595bd44fd40ae4081f8f159e266b5}{Singh}{S\bibinitperiod}{Amarjeet}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=8e28df4108c3a8eda6003d3c4da4e044}{Srivastava}{S\bibinitperiod}{Mani}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{81f9b419ffafcd28cd30e9a35a367235}
+      \strng{fullhash}{18bba84e7e4ea31b44c449e67165c560}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 5th international conference on Future energy systems}
+      \field{title}{NILMTK: an open source toolkit for non-intrusive load monitoring}
+      \field{year}{2014}
+      \field{pages}{265\bibrangedash 276}
+      \range{pages}{12}
+    \endentry
+    \entry{compre}{report}{}
+      \name{author}{6}{}{%
+        {{hash=6e0ed92e4f89cb3723b371ca56db6fde}{Batra}{B\bibinitperiod}{Nipun}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=cbd595bd44fd40ae4081f8f159e266b5}{Singh}{S\bibinitperiod}{Amarjeet}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=a8b7e494aaa44a2e5efed00a4260cf00}{Singh}{S\bibinitperiod}{Pushpendra}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=c2d7553e4bfb46f3daf5433831cb123d}{Dutta}{D\bibinitperiod}{Haimonti}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=3f5ee21430a0d44d71cbe6e188eb5a55}{Sarangan}{S\bibinitperiod}{Venkatesh}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=8e28df4108c3a8eda6003d3c4da4e044}{Srivastava}{S\bibinitperiod}{Mani}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{81f9b419ffafcd28cd30e9a35a367235}
+      \strng{fullhash}{5f39ac0a5d8ed8cbf896c5af1fad2267}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1404.7227}
+      \field{title}{Data Driven Energy Efficiency in Buildings}
+      \field{year}{2014}
+    \endentry
+    \entry{kelly2014demo}{poster}{}
+      \name{author}{8}{}{%
+        {{hash=905fa4c85d3960c6f396ce73622174c4}{Kelly}{K\bibinitperiod}{Jack}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=6e0ed92e4f89cb3723b371ca56db6fde}{Batra}{B\bibinitperiod}{Nipun}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=f6ff21898563a850b78a4d08292688a2}{Parson}{P\bibinitperiod}{Oliver}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=c2d7553e4bfb46f3daf5433831cb123d}{Dutta}{D\bibinitperiod}{Haimonti}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=135098a77e5408e14725d53603819c56}{Knottenbelt}{K\bibinitperiod}{William}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=5649105233cb0014f375d744a63b480b}{Rogers}{R\bibinitperiod}{Alex}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=cbd595bd44fd40ae4081f8f159e266b5}{Singh}{S\bibinitperiod}{Amarjeet}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=8e28df4108c3a8eda6003d3c4da4e044}{Srivastava}{S\bibinitperiod}{Mani}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b155c1c6234d90b4ca40bf309788ecda}
+      \strng{fullhash}{2b51a2855efc4a8bf1341876dbf07572}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1409.5908}
+      \field{title}{Demo abstract: NILMTK v0. 2: A Non-intrusive Load Monitoring Toolkit for Large Scale Data Sets}
+      \field{year}{2014}
+    \endentry
+    \entry{arjunan2013sensoract}{poster}{}
+      \name{author}{6}{}{%
+        {{hash=28e5dc652866b9fd9e4b7f3d33a3bcc6}{Arjunan}{A\bibinitperiod}{Pandarasamy}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=a852d6d07421fdfca97c0cadccf335fa}{Saha}{S\bibinitperiod}{Manaswi}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=db1b18815783604bce5d4d56cf9e1ef3}{Gulati}{G\bibinitperiod}{Manoj}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=6e0ed92e4f89cb3723b371ca56db6fde}{Batra}{B\bibinitperiod}{Nipun}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=cbd595bd44fd40ae4081f8f159e266b5}{Singh}{S\bibinitperiod}{Amarjeet}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=a8b7e494aaa44a2e5efed00a4260cf00}{Singh}{S\bibinitperiod}{Pushpendra}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a640d381ea930ac30b9d5bd750c52e37}
+      \strng{fullhash}{513a4d00430c595078a983489d29f26c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{the poster track of 10th USENIX Symposium on Networked Systems Design and Implementation (NSDI’13)}
+      \field{title}{SensorAct: Design and Implementation of Fine-grained Sensing and Control Sharing in Buildings}
+      \field{year}{2013}
+    \endentry
+    \entry{batra2013experiences}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=6e0ed92e4f89cb3723b371ca56db6fde}{Batra}{B\bibinitperiod}{Nipun}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=28e5dc652866b9fd9e4b7f3d33a3bcc6}{Arjunan}{A\bibinitperiod}{Pandarasamy}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=cbd595bd44fd40ae4081f8f159e266b5}{Singh}{S\bibinitperiod}{Amarjeet}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=a8b7e494aaa44a2e5efed00a4260cf00}{Singh}{S\bibinitperiod}{Pushpendra}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{24132f73e9cec357bb7048394d7272d6}
+      \strng{fullhash}{24132f73e9cec357bb7048394d7272d6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Intelligent Sensors, Sensor Networks and Information Processing, 2013 IEEE Eighth International Conference on}
+      \field{title}{Experiences with Occupancy Based Building Management Systems}
+      \field{year}{2013}
+      \field{pages}{153\bibrangedash 158}
+      \range{pages}{6}
+    \endentry
+    \entry{batra2013indic}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=6e0ed92e4f89cb3723b371ca56db6fde}{Batra}{B\bibinitperiod}{Nipun}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=c2d7553e4bfb46f3daf5433831cb123d}{Dutta}{D\bibinitperiod}{Haimonti}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=cbd595bd44fd40ae4081f8f159e266b5}{Singh}{S\bibinitperiod}{Amarjeet}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fe32db53fee4dc364bafd3aeee0714ec}
+      \strng{fullhash}{fe32db53fee4dc364bafd3aeee0714ec}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{12th International Conference on Machine Learning and Applications (ICMLA’13)}
+      \field{title}{INDiC: Improved Non-Intrusive load monitoring using load Division and Calibration}
+      \field{year}{2013}
+    \endentry
+    \entry{batra2013s}{workshop}{}
+      \name{author}{4}{}{%
+        {{hash=6e0ed92e4f89cb3723b371ca56db6fde}{Batra}{B\bibinitperiod}{Nipun}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=db1b18815783604bce5d4d56cf9e1ef3}{Gulati}{G\bibinitperiod}{Manoj}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=cbd595bd44fd40ae4081f8f159e266b5}{Singh}{S\bibinitperiod}{Amarjeet}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=15b6f91bc3d9797c78c466659b173cda}{Srivastava}{S\bibinitperiod}{Mani\bibnamedelima B}{M\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{623f0d4844d1da0e0c0b8af6486cd041}
+      \strng{fullhash}{623f0d4844d1da0e0c0b8af6486cd041}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 5th ACM Workshop on Embedded Systems For Energy-Efficient Buildings}
+      \field{title}{It's Different: Insights into home energy consumption in India}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+    \endentry
+    \entry{2012_sensoract}{workshop}{}
+      \name{author}{6}{}{%
+        {{hash=28e5dc652866b9fd9e4b7f3d33a3bcc6}{Arjunan}{A\bibinitperiod}{Pandarasamy}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=6e0ed92e4f89cb3723b371ca56db6fde}{Batra}{B\bibinitperiod}{Nipun}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=42f990821b2d8b36fe0cc8cb71a35cce}{Choi}{C\bibinitperiod}{Haksoo}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=cbd595bd44fd40ae4081f8f159e266b5}{Singh}{S\bibinitperiod}{Amarjeet}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=a8b7e494aaa44a2e5efed00a4260cf00}{Singh}{S\bibinitperiod}{Pushpendra}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=502bc3685ae1f22343d58ea1e4f6d27c}{Srivastava}{S\bibinitperiod}{Mani\bibnamedelima B.}{M\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Toronto, Ontario, Canada}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{a640d381ea930ac30b9d5bd750c52e37}
+      \strng{fullhash}{97a34267c6e8d81a470378b320459ddc}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Fourth ACM Workshop on Embedded Sensing Systems for Energy-Efficiency in Buildings}
+      \field{isbn}{978-1-4503-1170-0}
+      \field{series}{BuildSys '12}
+      \field{title}{SensorAct: A Privacy and Security Aware Federated Middleware for Building Management}
+      \field{year}{2012}
+      \field{pages}{80\bibrangedash 87}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1145/2422531.2422547
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/2422531.2422547
+      \endverb
+      \keyw{actuators,architecture,building management,deployment,middleware,sensors}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
